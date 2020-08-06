@@ -12,3 +12,5 @@ https://LaurieGraff.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by Laurie Graff
+
+### ©2019 Run Buddy, Inc
