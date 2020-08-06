@@ -127,9 +127,6 @@ section {
     padding: 10px 20px;
     font-size: 16px;
 }
-.intro {
-    text-align: center;
-}
 .intro p {
     /*add this alongside your other declarations*/
     margin: auto;
@@ -137,9 +134,9 @@ section {
     color: #39a6b2;
     width: 80%;
     font-size: 20px;
+    text-align: center;
 }
 .steps {
-    text-align: center;
     background: #fce138;
 }
 .steps div {
@@ -164,10 +161,11 @@ section {
 .section-title {
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
     border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
 }
 .primary-border {
     border-color: #fce138;
@@ -176,7 +174,6 @@ section {
     border-color: #39a6b2;
 }
 .trainers {
-    text-align: center;
 }
 .trainer {
     width: 900px;
@@ -194,12 +191,6 @@ section {
     float: left;
     width: 65%;
 }
-.text-left {
-    text-align: left;
-}
-.text-right {
-    text-align: right;
-}
 .trainer-bio h3 {
     font-size: 32px;
     margin-bottom: 8px;
@@ -215,7 +206,6 @@ section {
 }
 /* REACH OUT STYLES START */
 .contact {
-    text-align: center;
     background: #024e76;
 }
 .contact h2 {
@@ -247,3 +237,12 @@ section {
     color: #fce138;
 }
 /* REACH OUT STYLES END */
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+.flex-row {
+    display: flex;
+}
